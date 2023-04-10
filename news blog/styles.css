@@ -1,0 +1,185 @@
+html{
+  height: 100%;
+width: 100%;
+}
+*{
+margin: 0px;
+padding: 0px;
+  border: 0px;
+}
+h1{
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  font-family: 'creepster', cursive;
+text-align: center;
+color: black;
+border: 5px solid #BF31CB;
+  border-radius: 10px;
+}
+input[type="checkbox"]{
+display: none;
+}
+input[type="checkbox"]:not(:checked){
+display: none
+}
+.navbtn i{
+  position: fixed;
+font-size: 40px;
+  color: #BF31CB;
+  z-index: 900;
+  border: 2px solid #BF31CB;
+  cursor: pointer;
+border-radius: 5px;
+  line-height: 40px;
+  text-align: center;
+  transition: transition: all 0.5s ease;
+  background: black;
+  float: right;
+}
+.navbtn2 i{
+  position: fixed;
+font-size: 40px;
+  color: #BF31CB;
+  left: 2px;
+  z-index: 888;
+  border: 2px solid #BF31CB;
+  cursor: pointer;
+border-radius: 5px;
+  line-height: 40px;
+  text-align: center;
+  transition: transition: all 0.5s ease;
+  background: black;
+}
+#btn:checked ~ .navbtn i{
+display: none;
+}
+.wrapper {
+  margin-top: 40px;
+position: fixed;
+height: 100%;
+width: 100%;
+background: #BF31CB;
+  left: -400px;
+  transition: all 0.5s ease;
+}
+.list-item li .activenav{
+  background: #990696;
+  transition: all 0.4s ease;
+font-size: 20px;
+  color: white;
+  text-decoration: none;
+  width: 100%;
+margin: 0px;
+padding: 0px;
+display: flex-flow;
+height: 28px;
+}
+.wrapper h3 .activenav{
+background: #990696;
+  transition: all 0.4s ease;
+font-size: 30px;
+  color: white;
+  text-decoration: none;
+  width: 100%;
+margin: 0px;
+padding: 0px;
+display: flex-flow;
+height: 30px;
+}
+.activenav :hover{
+box-shadow: 0 0 10px 3px #990696;
+  border-top: 2px solid transparent;
+border-bottom: 2px solid transparent;
+}
+.wrapper h3 .activenav:hover{
+box-shadow: 0 0 10px 3px #990696;
+  border-top: 2px solid transparent;
+border-bottom: 2px solid transparent;
+}
+#btn:checked ~ div{
+left: 0px;
+}
+#sidebar{
+position: relative;
+height: 100%;
+width: 100%;
+}
+.list-item li{
+padding-left: 0px;
+border-top: 1px solid white;
+border-bottom: 1px solid black;
+  transition: all 0.4s ease;
+height: 25px;
+}
+.list-item li:hover{
+box-shadow: 0 0 10px 3px #E2E22B;
+  border-top: 1px solid transparent;
+  border-bottom: 1px solid transparent;
+}
+.wrapper h3 a{
+font-size: 30px;
+  font-weight: 600;
+  color: white;
+  display: flex;
+  height: 30px;
+  width: 100%;
+  text-decoration: none;
+}
+.list-item li a{
+font-size: 15px;
+  font-weight: 600;
+  color: white;
+  display: flex;
+  height: 20px;
+  width: 100%;
+  text-decoration: none;
+}
+.list-item li i{
+margin: 5px;
+font-size: 20px;
+display: flex;
+}
+.sechead {
+text-align: center;
+}
+.loadmore a{
+text-decoration: none;
+border: 2px solid black;
+  border-radius: 4px;
+  font-size: 20px;
+  color: white;
+background: purple;
+  float: right;
+  display: relative;
+
+}
+#srch{
+height: 25px;
+  width: 70%;
+}
+.footer{
+  border: 3px solid purple;
+  text-decoration: none;
+float: bottom;
+  border-radius: 10px;
+  background: #990696;
+  margin: 0px;
+}
+.footer h2{
+  padding: 15px;
+border-bottom: 3px solid white;
+  color: white;
+}
+.footer p{
+margin: 10px;
+  margin-left: 15px:
+}
+.footer p a{
+margin: 20px;
+  font-size: 12px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #A6A8A4;
+  padding: 25px;
+}
